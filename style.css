@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    background-color: red;
+}
+@media screen and (max-width:1000px) {
+    body{
+        background-color: green;
+    }
+}
+@media screen and (min-width:500px) {
+    body{
+        background-color: blue;
+    }
+} */
+.box{
+    /* background-color: blueviolet; */
+    /* border: 1px solid black; */
+    padding: 25px;
+    height: 100%;
+    text-align: center;
+}
+.header{
+    min-height: 90px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.promo{
+    min-height: 460px;
+    margin-bottom: 20px;
+}
+.fonts{
+    min-height: 90px;
+    margin-bottom: 20px;
+}
+.item{
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+.photo{
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+.footer{
+    min-height: 300px;
+}
+h1{
+    font-size: 30px;
+}
+.box a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    line-height: 60px;
+    
+    transition: all 0.5s;
+    
+}
+.box a:hover{
+    background-color: rgb(0, 255, 21);
+    color:rgb(8, 0, 255);
+    border: 3px solid rgb(0, 119, 255);
+}
+.box > ul{
+    display: flex;
+    position: relative;
+    margin-left: -50px;
+}
+.box ul li{
+    display: inline-block;
+    background-color: rgb(0, 195, 255);
+    width: 50%;
+}
+.borde{
+    border-radius: 20px 0 0 20px;
+}
+.borde_2{
+    background-color: rgb(0, 195, 255);
+    border-radius: 0 20px 20px 0;
+}
+.box ul ul{
+    display: none;
+    position: absolute;
+}
+.box ul li:hover > ul{
+    display: block;
+}
+.box ul ul li{
+    display: block;
+    position: relative;
+    right: 32px;
+}
+.text_info{
+    margin-top: 40px;
+}
+.text_info h2{
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+.text_info h4{
+    font-family: 'Oswald', sans-serif;
+}
+.knopka_get_started{
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 150px;
+    height: 30px;
+}
+.knopka_get_started a{
+    color: rgb(0, 195, 255);
+    text-decoration: none;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 20px;
+}
+.img{
+    width: 600px;
+    height: 500px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.company{
+    margin: 30px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.fonts .box{
+    border-radius: 40px;
+    background-color: rgb(0, 195, 255);
+}
+i{
+    font-size: 50px;
+    color: black;
+}
+.skokcinu{
+    text-align: center;
+}
+.skokcinu h2{
+    font-family: 'Oswald', sans-serif;
+}
+.cinu{
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 30px;
+}
+.chislo h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+.text_cinu{
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: 300px;
+}
+.text_cinu h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+.kuputu{
+    width: 100px;
+    height: 40px;
+    margin: -200px 135px 0 auto;
+}
+.kuputu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(0, 195, 255);
+    background-color: rgb(128, 225, 255);
+    border-radius: 20px;
+}
+.email{
+    padding: 20px;
+    width: 380px;
+    height: 300px;
+    background-color: azure;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 20px;
+}
+.email h3{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.email_icons{
+    margin-top: 80px;
+}
+.email_icons i{
+    margin-right: 30px;
+}
+.fa-telegram{
+    color: rgb(0, 153, 255);
+}
+.fa-instagram{
+    background-image: radial-gradient(circle at 32% 105%, yellow 0%, rgb(255, 47, 0) 24%, rgb(255, 0, 183) 60%, rgb(106, 0, 255) 80%, blue 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-facebook{
+    color: rgb(25, 0, 255);
+}
+.fa-viber{
+    color: rgb(164, 71, 252);
+}
+.pochta{
+    margin-top: 100px;
+    display: flex;
+}
+.contact h2{
+    font-family: 'Bebas Neue', cursive;
+}
+.iconpochta{
+    display: flex;
+    margin-top: 80px;
+    margin-left: -330px;
+    width: 50px;
+}
+.text_pochta{
+    width: 100px;
+
+}
+.text_pochta h6{
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.fa-at{
+    color: red;
+    font-size: 25px; 
+}
+.icon_pochta_1{
+    margin-top: -80px;
+    margin-left: 150px;
+}
+.icon_pochta_2{
+    margin-top: -80px;
+}
+.fa-envelope{
+    font-size: 25px;
+    margin-left: 10px;
+    
+    color: rgb(214, 69, 1);
+}
+.contact{
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: azure;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 20px;
+    display: flex;
+}
+.wu h2{
+    width: 200px;
+}
+.phone{
+    margin-top: 180px;
+    margin-left: -330px;
+    display: flex;
+}
+.phone_phone h6{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    margin-left: 30px;
+}
+.fa-phone-alt{
+    margin-left: 130px;
+    color: green;
+}
+.footer a:hover{
+    font-size: large;
+}
+.box_info{
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: azure;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 30px;
+    display: flex;
+}
+.box_info div{
+    width: 250px;
+    margin: 15px auto;
+}
+.box_info h2{
+    margin-left: -60px;
+    margin-bottom: -4px;
+    width: 550px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+button{
+    padding: 10px;
+}
+.examples h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.col-md-3 .box{
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 30px;
+}
